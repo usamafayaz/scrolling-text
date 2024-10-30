@@ -27,7 +27,7 @@ A simple Text Scroller using HTML, CSS, and JavaScript, allowing automatic text 
 Clone the repository and open the `index.html` file in your browser.
 
 ```bash
-git clone https://github.com/usamafayaz/ScrollingText.git
+git clone https://github.com/usamafayaz/scrolling-text.git
 ```
 
 ```bash
@@ -37,4 +37,5 @@ cd text-scroller
 open index.html
 
 ## Contact
+
 For any inquiries, please contact [usama.fayyaz157@gmail.com].

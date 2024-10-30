@@ -64,7 +64,6 @@ button:hover {
 
 .scroll-options {
   display: flex;
-  justify-content: space-between;
   color: #e0e0e0;
 }
 

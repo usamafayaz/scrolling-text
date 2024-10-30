@@ -17,7 +17,7 @@ document
   .getElementById("submitButton")
   .addEventListener("click", async function () {
     const inputText = document.getElementById("inputText").value;
-    const scrollTime = document.getElementById("scrollTime").value || 20; // Default to 20 seconds
+    const scrollTime = document.getElementById("scrollTime").value || 20;
     const autoScroll = document.querySelector(
       'input[name="autoScroll"]:checked'
     ).value;
@@ -25,6 +25,10 @@ document
     // Check if inputText is empty
     if (!inputText) {
       alert("Please enter text to scroll!");
+      return;
+    }
+    if (scrollTime < 5) {
+      alert("Scroll Time must be greater than 5 seconds!");
       return;
     }
 
